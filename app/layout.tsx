@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={figtree.className}>
+            <body suppressHydrationWarning={true} className={figtree.className}>
                 <Siderbar>
                     {children}
                 </Siderbar>
